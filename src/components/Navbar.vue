@@ -3,6 +3,7 @@
     <v-toolbar class="navbar-theme">
       <!-- <v-app-bar-nav-icon style="color:white"></v-app-bar-nav-icon> -->
       <label>{{ getRolSession }}</label>
+      <label>v1.0.0</label>
       <v-spacer></v-spacer>
       <label v-if="isLoggedIn && !isLogin"> Hola <b>{{ getUsername }}</b></label>
       <v-btn v-if="!isLoggedIn" class="navbar-icon" elevation="0" @click="goLogin()">
