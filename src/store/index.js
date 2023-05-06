@@ -14,7 +14,7 @@ export default new Vuex.Store({
     SNACKBAR_COLOR: 'success',
     SNACKBAR_ICON: 'mdi-check',
     // PATH
-    ENDPOINT_PATH: "https://localhost:7098",
+    ENDPOINT_PATH: "http://localhost:7098",
     // LISTAS
     ROLES: [],
     MODULOS: [],
